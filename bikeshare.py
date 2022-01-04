@@ -51,7 +51,7 @@ def get_filters():
                 continue
 
     # Summarizing user selection
-        print('\n\nYour filter selectection is: CITY: {}, MONTH: {}, DAY: {}.\n'.format(city, month, day))
+        print('\n\nYou selected: CITY: {}, MONTH: {}, DAY: {}.\n'.format(city, month, day))
 
     # Continue with selected user input or restart/correct input
         input_ready = input('To continue with the calculation type "yes" - to restart and change your filter selection type "no": ').lower()
