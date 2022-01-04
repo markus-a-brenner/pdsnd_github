@@ -29,7 +29,7 @@ def get_filters():
             if city in accepted_cities:
                 break
             else:
-                print('\n\nInvalid Input! Please select one of the available cities')
+                print('\n\nInvalid Input!!! Please select one of the available cities!')
                 continue
 
     # TO DO: get user input for month (all, january, february, ... , june)
@@ -38,7 +38,7 @@ def get_filters():
             if month in accepted_months:
                 break
             else:
-                print('\n\nInvalid Input! Please select a valid month or "all"')
+                print('\n\nInvalid Input!!! Please select a valid month or "all"!')
                 continue
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
@@ -47,7 +47,7 @@ def get_filters():
             if day in accepted_days:
                 break
             else:
-                print('\n\nInvalid Input! Please select a valid day of the week or "all"')
+                print('\n\nInvalid Input!!! Please select a valid day of the week or "all"!')
                 continue
 
     # Summarizing user selection
